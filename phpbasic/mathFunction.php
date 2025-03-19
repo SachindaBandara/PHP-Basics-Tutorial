@@ -36,5 +36,6 @@ $total = max($x, $y, $z);
 $total = min($x, $y, $z);
 $total = pi();
 $total = rand(1, 100); // Random Number Generator
+
 echo $total;
 ?>
