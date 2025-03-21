@@ -9,10 +9,10 @@ try{
 $conn = mysqli_connect($db_server, $db_user, $db_password, $db_name);
 
 if($conn){
-    echo "connected successfully!";
+    echo "connected successfully! <br>";
 }
 
 }catch(mysqli_sql_exception){
-    echo "Not connected!";
+    echo "Not connected! <br>";
 }
 ?>

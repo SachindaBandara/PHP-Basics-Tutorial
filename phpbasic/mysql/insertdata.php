@@ -1,8 +1,8 @@
 <?php
 include("databaseConnection.php");
 
-$username = "Bandara";
-$password = "Sachi1234";
+$username = "Supun";
+$password = "supun1234";
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO users(user, password) VALUES('$username', '$hash')";
@@ -15,4 +15,5 @@ try{
     echo "Could not register user <br>";
 }
 
+mysqli_close($conn);
 ?>
